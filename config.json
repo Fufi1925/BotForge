@@ -1,0 +1,128 @@
+{
+  "bot": {
+    "name": "BotForge",
+    "version": "3.0.0",
+    "prefix": "!",
+    "developer": "Fufi",
+    "owner_id": "1303627964734246944"
+  },
+  "stats": {
+    "use_live": true,
+    "fake": {
+      "guilds": 1,
+      "users": 523,
+      "channels": 12,
+      "commands_total": 0,
+      "uptime_days": 0
+    }
+  },
+  "dashboard": {
+    "enable_demo_login": true,
+    "maintenance_mode": false,
+    "theme": "dark",
+    "default_language": "de"
+  },
+  "no_prefix": {
+    "enabled": true,
+    "users": ["1303627964734246944"],
+    "roles": [],
+    "allow_everyone": false,
+    "commands": ["help", "play", "rank", "ping", "status", "ticket", "warn", "timeout", "ban", "kick", "clear", "lock", "unlock"]
+  },
+  "official_projects": {
+    "modforge": {
+      "name": "ModForge",
+      "url": "https://mod-forge.up.railway.app/",
+      "description": "ModForge ist offiziell Teil von BotForge und spezialisiert auf moderne Moderation."
+    }
+  },
+  "demo_dashboard": {
+    "enabled": false,
+    "secret_path": "demo-bf-2025x",
+    "password": ""
+  },
+  "modules": {
+    "tickets": true,
+    "voice_support": true,
+    "team_management": true,
+    "server_stats": true,
+    "moderation": true,
+    "guild_protection": true,
+    "social_media": true,
+    "welcome_leave": true,
+    "news": true,
+    "suggestions": true,
+    "club_management": true,
+    "custom_voice": true,
+    "engagement_rewards": true,
+    "music": true,
+    "botforge_plus": true
+  },
+  "partners": {
+    "enabled": true,
+    "featured": [
+      {
+        "name": "Koblenz RP",
+        "members": 523,
+        "icon": "🏙️",
+        "desc": "Die größte deutsche Roleplay-Community aus Koblenz",
+        "link": "https://discord.gg/koblenzrp",
+        "verified": true
+      }
+    ]
+  },
+  "branding": {
+    "primary_color": "#7C3AED",
+    "secondary_color": "#06B6D4",
+    "logo_url": "/logo.png"
+  },
+  "page_visibility": {
+    "home": true,
+    "dashboard": true,
+    "commands": true,
+    "status": true,
+    "partners": true,
+    "features": true,
+    "premium": true,
+    "support": true,
+    "team": true,
+    "docs": true,
+    "blog": true,
+    "changelog": true,
+    "roadmap": true,
+    "events": true,
+    "showcase": true,
+    "leaderboard": true,
+    "testimonials": true,
+    "tutorials": true,
+    "templates": true,
+    "integrations": true,
+    "economy": false,
+    "ai": false,
+    "badges": true,
+    "affiliate": false,
+    "downloads": false,
+    "widgets": false,
+    "jobs": false,
+    "guilds": false,
+    "growth": true,
+    "migrate": true,
+    "trust": true,
+    "branding_page": true,
+    "compare": true,
+    "uptime": true,
+    "suggest": true,
+    "contact": true,
+    "pricing": true,
+    "open_source": false,
+    "analytics": true,
+    "incidents": true,
+    "maintenance": true,
+    "security": true,
+    "faq": true,
+    "emojis": true,
+    "community": true,
+    "api_docs": true,
+    "legal": true
+  }
+}

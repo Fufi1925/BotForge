@@ -1,0 +1,21 @@
+{
+  "dashboard": {
+    "enable_demo_login": true,
+    "maintenance_mode": false
+  },
+  "modules": {
+    "tickets": true,
+    "automod": true,
+    "music": true,
+    "welcome": true,
+    "levels": true,
+    "logging": true,
+    "moderation": true,
+    "custom_commands": true,
+    "giveaways": true,
+    "reaction_roles": true,
+    "ai_features": true,
+    "economy": true,
+    "integrations": true
+  }
+}
